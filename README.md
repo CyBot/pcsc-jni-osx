@@ -5,7 +5,7 @@ This repository contains a patched version of the PCSC JNI Binding needed in
 the SmartcardIO. It fixes the SCardControl command which received an interface
 change in OSX, but was not adapted correctly in the JDK.
 
-This version contains fixes based on OpenJDK 6 and 7. Additionally a modified
+This version contains fixes based on OpenJDK 6, 7 and 8. Additionally a modified
 SmartcardIO factory package is provided for each JDK version.
 
 

@@ -11,3 +11,9 @@ echo ==============================
 echo
 cd ../openjdk7
 ./build.sh
+
+echo Building library for OpenJDK 8
+echo ==============================
+echo
+cd ../openjdk8
+./build.sh
